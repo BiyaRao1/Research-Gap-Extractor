@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:arxiv="http://arxiv.org/schemas/atom">
+  <entry>
+    <id>http://arxiv.org/abs/2101.00001v1</id>
+    <published>2021-01-01T00:00:00Z</published>
+    <title>A Study of Low-Resource Neural Machine Translation</title>
+    <summary>
+      We study neural machine translation for low-resource language pairs
+      and show that subword tokenization improves BLEU scores. A limitation
+      of our approach is that it was only evaluated on one language pair.
+    </summary>
+    <author>
+      <name>Jane Doe</name>
+    </author>
+    <author>
+      <name>John Smith</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2101.00002v2</id>
+    <published>2021-03-15T00:00:00Z</published>
+    <title>Mutation Testing for Cyber-Physical Systems: A Survey</title>
+    <summary>
+      This survey reviews mutation testing techniques applied to
+      cyber-physical systems and identifies open challenges in scaling
+      these techniques to industrial systems.
+    </summary>
+    <author>
+      <name>Alex Lee</name>
+    </author>
+  </entry>
+</feed>

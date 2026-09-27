@@ -1,0 +1,20 @@
+[project]
+name = "research-gap-extractor"
+version = "0.1.0"
+description = "Search arXiv / Semantic Scholar and extract structured research gaps from abstracts with an LLM."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Yella Mehroze" }]
+dependencies = ["requests>=2.31"]
+
+[project.optional-dependencies]
+llm = ["anthropic>=0.34"]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+research-gap-extractor = "research_gap_extractor.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
